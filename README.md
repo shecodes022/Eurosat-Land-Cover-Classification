@@ -4,10 +4,10 @@
 
 ## Key Takeaways ⭐
 
-- Fine-tuned **ResNet-50** achieved **98.14%** test accuracy, the strongest baseline on the EuroSAT dataset.
-- **ViT-B/32** proved dramatically more robust to Gaussian noise, retaining **82.6%** accuracy at severity 0.30 versus CNN's **11.7%**.
+- Fine-tuned ResNet-50 achieved 98.14% test accuracy, the strongest baseline on the EuroSAT dataset.
+- ViT-B/32 proved dramatically more robust to Gaussian noise, retaining 82.6% accuracy at severity 0.30 versus CNN's 11.7%.
 - The project compares two families of vision architectures — CNN and Transformer — under a unified experimental pipeline.
-- Transfer learning with **full fine-tuning** outperformed frozen-backbone training by up to **16.5 percentage points**.
+- Transfer learning with full fine-tuning outperformed frozen-backbone training by up to 16.5 percentage points.
 - Experiments span model accuracy, data efficiency, robustness to corruption, hyperparameter sensitivity, and augmentation ablations.
 
 ## Motivation ⚙️
@@ -65,6 +65,7 @@ Both models were loaded with ImageNet-pretrained weights from `torchvision.model
 
 ```
 .
+├──.gitattributes
 ├── Project.ipynb
 └── README.md
 ```
